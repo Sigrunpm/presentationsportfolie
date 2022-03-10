@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StileGuide</title>
+    <link rel="stylesheet" href="stilesheet.css">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+
+   <body>
+     <!--Her har vi header-->
+         <div class="header">
+         <img class="logo" src="billeder/Logo app.png" alt="logo">
+         <div class="overskrift"><h1>Stile guide SB</h1>
+         </div>
+         </div>
+
+         <!--Forældre div til div - navbar(side) og div - content(row)-->
+
+         <div class="indhold">
+
+          <!--Div - content(side) Vores eksempel-->
+
+         <!--Div - content(side) Selve vores eksempler-->
+        <div class="row">
+         
+            <div class="button2">
+              <div class="box">
+                     <form class="søg" action="action_page.php">
+                     <input type="text" placeholder="Søg..." name="search">
+                     <button type="submit"><i class="fa fa-search"></i></button>
+                     </form>  
+               </div>
+            
+             <div class="tekst1"> <p><b>Søge funktion</b></p></div>
+                
+                   <p class="html"><b> Kode HTML </b> <br>
+   
+                     &lt;div class="box"&gt; <br>
+                     &lt;form class="søg" action="action_page.php"&gt; <br>
+                     &lt;input type="text" placeholder="Søg..." name="search"&gt; <br>
+                     &lt;button type="submit"&gt;&lt;i class="fa fa-search"&gt;&lt;/i&gt;&lt;/button&gt; <br>
+                     &lt;/form&gt;   <br> 
+                     &lt;/div&gt; <br>
+                     </p>
+                 
+
+  
+       <p class="css">
+         <b> Kode CSS</b>
+      
+       *{ <br>
+        box-sizing: border-box; <br>
+    } <br>
+        form.søg input[type=text]{ <br>
+            padding: 10px; <br>
+            font-size: 17px; <br>
+            border: solid transparent; <br>
+            border-radius: 10px; <br>
+        } <br>
+        form.søg button{ <br>
+            margin-left: -40px; <br>
+            margin-top: 5px; <br>
+            float: left; <br>
+            width: 30px; <br>
+            padding: 5px; <br>
+            border: solid transparent; <br>
+            border-radius: 10px; <br>
+        } <br>
+        Clear floats <br>
+        form.søg::after{ <br>
+            content: ""; <br>
+            clear: both; <br>
+            display: table; <br>
+        } <br>
+       </p>
+    
+         </div>
+         </div>
+
+          <!--Div - navbar(side) indeholder vores menu - til venstre på siden-->
+
+          <div class="side">
+
+          <!--Selve navbaren-->
+          
+          <div class="topnav1">
+            
+            <a href="buttons.html">Buttons</a>
+            <a href="color.html">Colors</a>
+            <a href="forms.html">Forms</a>
+            <a href="pictures.html">Pictures</a>
+            <a class="active" href="search.html">Search</a>
+            <a href="chat.html">chat</a>
+            <a href="login.html">log in</a>
+            <a href="post.html">post</a>
+         </div>
+
+         </div>
+         </div>
+
+ 
+          <!--Her er vores footer-->
+
+         <div class="bund">
+            <img src="billeder/UCL_horisontal_logo_rbg.png" alt="UCL Logo">
+            <p>&copy; Projekt 4 2022</p>
+          </div>
+
+  </body>
+</html>

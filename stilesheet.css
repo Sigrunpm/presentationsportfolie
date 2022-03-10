@@ -1,0 +1,192 @@
+
+/*Grundlæggende indhold*/
+body {
+  background-color: white;
+  margin: none;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+/*Selve header - logo - overskrift*/
+.header {   
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  border: 0px;
+  border-radius: 12px;
+  background-color: rgb(241,200,192);
+} 
+
+.logo {
+  float: left;
+  width: 15%;
+}
+
+.overskrift {
+    color: rgb(0,69,78);
+    position: absolute;
+    font-size: 3vw;
+    margin-inline-start: 20%;
+    margin-block-start: 0%;
+  }
+  
+  /*Div til højre - herunder vores funktioner med kode kommer*/
+   .row {  
+     width: 70%;
+     float: right;
+     padding: 2%;
+   }
+   
+/*Div til venstre, som indeholder vores navbar*/
+   .side {
+     width: 25%;
+     padding-top: 2%;
+   }
+
+   /*Grundlæggende for navbar*/
+  .topnav1 {
+    overflow: hidden;
+  }
+  
+  /*Designet navbar*/
+  .topnav1 a {
+    width: 87%;
+    float: right;
+    background-color: rgb(0,69,78);
+    color: rgb(255, 246, 246);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1,5vw;
+    margin: 2px;
+    border: 2px solid rgb(0,69,78);
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  /*Når musen er over en knap i navn bar, skifter knappen farve og får en baggrundsskygge*/
+  .topnav1 a:hover {
+    border-radius: 12px;
+    background-color: rgb(241,200,192);
+    color: rgb(0,69,78);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  /*Når du er inde under en knap, er farven ændret fast*/
+  .topnav1 a.active {
+    background-color: rgb(241,200,192);
+    color: rgb(0,69,78);
+    border-radius: 12px;
+  }
+   
+/*vores footer*/
+ .bund {
+   width: 100%;
+   text-align: center;
+   background-color: rgb(241,200,192);
+   color: rgb(0,69,78);
+   font-size: 1vw;
+   border-radius: 12px;
+   padding: 5px;
+   margin-top: 200px;
+ }
+
+ /*Eksempler: Knapper*/
+ .topnav1 a.button1 {
+     width: 50%;
+     display: inline-start;
+     float: left; 
+ }
+  
+.tekst {
+    display: inline-block;vertical-align: top;
+}
+
+.html {
+    width: 50%;
+    display: inline-start;
+    float: left;
+    margin-top: 50px;
+}
+
+.css {
+    width: 50%;
+    display: inline-start;
+    float: left; 
+    margin-top: 50px;
+
+}
+
+/*Eksempel: Farver*/
+.farve {
+    width: 30%;
+}
+.html2 {
+    width: 50%;
+    display: inline-start;
+    float: left;
+}
+
+.css2 {
+    width: 50%;
+    display: inline-start;
+    float: left; 
+}
+
+/*Eksempel: Search*/
+*{
+    box-sizing: border-box;
+}
+ 
+    /*style til søgefeltet*/
+    form.søg input[type=text]{
+        padding: 10px;
+        font-size: 17px;
+        border: solid transparent;
+        float: left;
+        width: 150px;
+        background: #fff;
+        border-radius: 10px;
+        border: 2px solid #00454E;
+    }
+ 
+ 
+    /*style til søge-knappen*/
+    form.søg button{
+        margin-left: -40px;
+        margin-top: 5px;
+        float: left;
+        width: 30px;
+        padding: 5px;
+        background-color: #FFF;
+        color: #00454E;
+        font-size: 17px;
+        border: solid transparent;
+        border-left: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+ 
+ 
+ 
+    Clear floats
+    form.søg::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .row a.button2 {
+        width: 25%;
+        display: inline-start;
+        float: left; 
+    }
+     
+
+   .tekst1 {
+       width: 50%;
+       padding-left: 10px;
+       padding-bottom: 5px;
+       display: inline-block;vertical-align: top;
+   }
+
+ 
